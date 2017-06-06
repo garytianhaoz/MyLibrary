@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button_grey">#8c8989</color>
+
+    <color name="tab_checked">#FF4081</color>
+    <color name="tab_unchecked">#757575</color>
+    <color name="white">#ffffff</color>
+
+    <color name="recycler_color1">#FF4081</color>
+    <color name="recycler_color2">#edd36a</color>
+    <color name="recycler_color3">#3F51B5</color>
+    <color name="recycler_color4">#68d661</color>
+
+    <color name="book_title_mask">#80000000</color>
+
+    <color name="transparent_black">#33000000</color>
+
+    <color name="indicator_selected">@android:color/white</color>
+    <color name="indicator_unselected">#4D000000</color>
+</resources>

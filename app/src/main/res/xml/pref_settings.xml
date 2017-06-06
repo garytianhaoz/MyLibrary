@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:key="@string/pref_key_user_settings"
+        android:title="@string/pref_title_user_settings">
+
+        <com.lb.material_preferences_library.custom_preferences.ListPreference
+            android:defaultValue="@string/pref_theme_default"
+            android:key="@string/pref_key_night_day_setting"
+            android:summary="%s"
+            android:title="@string/pref_title_night_day_setting"
+            app:dialogTitle="@string/pref_title_night_day_setting"
+            app:entries="@array/pref_theme_list_entries"
+            app:entryValues="@array/pref_theme_list_values"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/pref_key_net_settings"
+        android:title="@string/pref_title_net_settings">
+
+        <Preference
+            android:key="@string/pref_key_net_flow_info"
+            android:title="@string/pref_title_net_flow_info"
+            android:summary="Network Status"/>
+
+        <SwitchPreference
+            android:key="@string/pref_key_net_offline"
+            android:summary="@string/pref_summary_net_offline"
+            android:title="@string/pref_title_net_offline"/>
+
+        <MultiSelectListPreference
+            android:entries="@array/pref_entries_net_flow"
+            android:entryValues="@array/pref_entryValues_net_flow"
+            android:key="@string/pref_key_net_flow_change"
+            android:title="@string/pref_title_net_flow_change"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

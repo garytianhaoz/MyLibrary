@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navheader_height">225dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="item_book_cardView_margin">2dp</dimen>
+    <dimen name="item_book_inside_margin">5dp</dimen>
+    <dimen name="item_book_cardView_text_margin_left">20dp</dimen>
+    <dimen name="app_bar_layout">265dp</dimen>
+    <dimen name="detail_margin_bottom">10dp</dimen>
+    <dimen name="detail_keyLine">16dp</dimen>
+    <dimen name="detail_title">20sp</dimen>
+    <dimen name="fab_elevation">12dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+</resources>

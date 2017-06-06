@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">MyLibrary</string>
+    <string name="title_new">New</string>
+    <string name="title_my_library">MyLibrary</string>
+    <string name="title_setting">Setting</string>
+    <string name="action_scan">Scan QR code</string>
+    <string name="view_scan_flash">Open flash</string>
+    <string name="view_scan_ISBN">BarCode</string>
+    <string name="view_scan_gallery">Gallery</string>
+    <string name="AppKey">47d52e601f78b1204ec61a3ac7667730</string>
+    <string name="sample_introduce">这是一段简介这是一段简介
+        这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介  这是一段简介这是一段简介这是一段简介这是一段简介
+          这是一段简介这是一段简介这是一段简介这是一段简介  这是一段简介这是一段简介这是一段简介这是一段简介  这是一段简介这是一段简介这是一段简介这是一段简介  这是一段简介这是一段简介这是一段简介这是一段简介
+        这是一段简介这是一段简介这是一段简介这是一段简介
+        这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介这是一段简介</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="onboarding_pre_button_description">Pre</string>
+    <string name="onboarding_finish_button_description">FINISH</string>
+    <string name="onboarding_next_button_description">NEXT</string>
+
+    <string name="pref_theme">theme</string>
+    <string name="pref_theme_default">light</string>
+
+    <string name="onboarding_section_1">开始你新的读书旅程</string>
+    <string name="onboarding_intro_1">Hello, world！</string>
+    <string name="onboarding_section_2">长按添加图书至我的图书馆</string>
+    <string name="onboarding_intro_2">也可扫码找书，轻松快捷</string>
+    <string name="onboarding_section_3">轻松管理所有图书</string>
+    <string name="onboarding_intro_3">图书推送时时有，获取一手书讯</string>
+    <string name="onboarding_finish_button_description_wait">Preparing, please wait…</string>
+    <string name="search_hint">Search for your book</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_key_user_settings">key_user_setting</string>
+    <string name="pref_key_night_day_setting">key_night_day</string>
+
+    <string name="pref_key_net_settings">key_net_setting</string>
+    <string name="pref_key_net_offline">key_net_offline</string>
+    <string name="pref_key_net_flow">key_net_flow</string>
+    <string name="pref_key_net_flow_info">key_net_flow_info</string>
+    <string name="pref_key_net_flow_change">key_net_flow_change</string>
+
+    <string name="pref_title_user_settings">用户设置</string>
+    <string name="pref_title_night_day_setting">夜间模式</string>
+
+    <string name="pref_title_net_settings">网络</string>
+    <string name="pref_title_net_offline">离线模式</string>
+    <string name="pref_title_net_flow">网络选择</string>
+    <string name="pref_title_net_flow_change">省流量模式</string>
+
+    <string name="pref_summary_night_day_setting">设置是否开启夜间模式</string>
+    <string name="pref_summary_net_offline">开启后将不再进行网络请求</string>
+    <string name="pref_title_net_flow_info">当前网络</string>
+
+    <string-array name="pref_entries_net_flow">
+        <item>2G</item>
+        <item>3G</item>
+        <item>4G</item>
+    </string-array>
+
+    <string-array name="pref_entryValues_net_flow">
+        <item>2G</item>
+        <item>3G</item>
+        <item>4G</item>
+    </string-array>
+
+    <string-array name="pref_theme_list_entries">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="pref_theme_list_values">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+
+</resources>
